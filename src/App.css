@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+#map {
+  height: 100vh;
+}
+
+.search {
+  height: 80vh;
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+  top: 125px;
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.search-input {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin: 2px 0;
+}
+
+
+#button-sidebar {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-top: 2px solid black;
+  margin-bottom: 0;
+  text-align: left;
+  padding-left: 50px;
+ 
+}
+
+
+ .gm-style-iw {
+max-width: 200px; 
+text-align: center;
+}
+
+@media screen and (max-width: 1210px) {
+  .search-input {
+  width: 91%;
+
+}
+
+}
+
+@media screen and (max-width: 978px) {
+
+  .search-input {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 834px) {
+
+  .search-input {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .search {
+    height: 90vh;
+  }
+
+  .search-input {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search {
+    height: 70vh;
+    width: 40%;
+    top: 160px;
+    overflow: scroll;
+    padding-bottom: 10px;
+
+  }
+
+  .gm-style-iw {
+max-width: 150px; 
+}
+
+
+
+  button {
+    font-size: 12px;
+    margin-bottom: 3.5px;    
+
+  }
+
+  #button-sidebar {
+    padding-bottom: 5px;
+  }
+
+  #button-sidebar:focus {
+  background-color: white;
+  outline: none;
+}
+
+}
