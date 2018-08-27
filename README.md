@@ -11,13 +11,13 @@ All markers are dynamic and provide the address. In addition, the user can searc
 * Download or clone the repository
 * Install all dependencies with npm install
 * Start the development server with npm start
-* Run on [(http://localhost:3000)] 
+* Run on http://localhost:3000 
 
 A service worked is provided by create-react-app in production mode. To start production mode, please do the following after installing project dependencies:
 * Run npm run build
 * Run npm install -g serve
 * Start production mode with serve -s build
-* Run on [(http://localhost:5000)] 
+* Run on http://localhost:5000 
 
 ## References
 * Async google maps loading by Klaas.
