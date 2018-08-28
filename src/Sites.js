@@ -26,7 +26,7 @@ class Sites extends Component {
 		return (
 
 			<div className="locations">
-			<button onClick={this.triggerInfoWindow} role="navigation" aria-label="select sight">
+			<button onClick={this.triggerInfoWindow} role="navigation" aria-label="Discover more about the sight">
 			{sights}
 			</button>
 			</div>
