@@ -58,6 +58,7 @@ class App extends Component {
       })
       .catch(error => {
         console.log("ERROR", error);
+        alert("Error! Retrieving data from Foursquare failed. Please try again.")
       });
   };
 
@@ -191,7 +192,7 @@ class App extends Component {
         <main role="application">
           <h1 className="title">Discover Sofia</h1>
           <Sidebar triggerSidebar={this.triggerSidebar} />
-          <div id="map" />
+          <div id="map" aria-labelledby="map" />
           {this.state.openSearch && (
             <div className="search">
               <input
@@ -200,6 +201,7 @@ class App extends Component {
                 placeholder="Search for sights"
                 value={this.state.query}
                 onChange={e => this.showSearch(e.target.value)}
+                aria-label="type to search for a sight"
               />
               <Search
                 venues={this.state.venues}
