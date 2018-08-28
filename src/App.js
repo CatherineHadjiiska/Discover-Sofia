@@ -195,15 +195,16 @@ class App extends Component {
           <div id="map" aria-labelledby="map" />
           {this.state.openSearch && (
             <div className="search">
-            <label htmlFor="search-input">Filter</label>            
+            <label htmlFor="filter">Filter</label>            
               <input
                 className="search-input"
-                id="search-input"
+                id="filter"
                 type="text"
                 placeholder="Search for sights"
                 value={this.state.query}
                 onChange={e => this.showSearch(e.target.value)}
                 />
+
 
               <Search
                 venues={this.state.venues}
