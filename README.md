@@ -5,7 +5,7 @@ It was bootsrapped with create-react-app and uses Foursquare API and Google Maps
 
 ## Features
 The user instantly sees all locations (sights) as markers on loading of the page. 
-All markers are dynamic and provide the address. In addition, the user can search for sights in the sidebar section.
+All markers are dynamic and provide the sight's address. In addition, the user can search for sights in the sidebar section.
 
 ## How to run 
 * Download or clone the repository
@@ -13,7 +13,7 @@ All markers are dynamic and provide the address. In addition, the user can searc
 * Start the development server with npm start
 * Run on http://localhost:3000 
 
-A service worked is provided by create-react-app in production mode. To start production mode, please do the following after installing project dependencies:
+A service worker is provided by create-react-app in production mode. To start production mode, please do the following after installing project dependencies:
 * Run npm run build
 * Run npm install -g serve
 * Start production mode with serve -s build
